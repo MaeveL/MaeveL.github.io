@@ -1,0 +1,72 @@
+body {
+	color: #444;
+	line-height: 1.5;
+	margin: 0px;
+	size: 18px;
+	font-family: Lato;
+}
+
+.container {
+	width: 1080px;
+    padding: 54px;
+    font-family: Lato;
+}  
+
+
+.header {
+	display: inline-block;
+	padding: 20px 20px;
+}
+
+.title {
+	color: rgb(215 22 44);
+	font-weight: 300;
+	font-size: 54px;
+
+}
+
+.title:hover {
+	color: #a00;
+}
+
+.subtitle {
+	color: #888;
+	font-size: 27px;
+	font-weight: 300;
+	padding-bottom: 30px;
+}
+
+nav {
+	text-decoration: none;
+}
+
+
+a {
+	padding: 40px;
+	text-align: center;
+	color: #fff;
+	background: #000;
+	size: 24px;
+}
+
+a:hover {
+	background: #900;
+}
+
+.date {
+	color: #cccccc
+    font-size: 36px
+    font-weight: 300;
+}
+
+.brooklyn {
+	color: #000
+    font-size: 36px
+    font-weight: 300
+}
+
+.brooklyn:hover {
+	color: #d00
+}
+
+
