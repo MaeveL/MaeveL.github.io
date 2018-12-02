@@ -1,0 +1,177 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  font-size: 28px
+}
+h2 {
+  font-size: 20px
+}
+    section.white-bg#roi-container {
+        background: linear-gradient(20deg, #20c4f4 0, #115ea2 70%, #115ea2 100%);
+      padding: 60px 0
+    }
+    .moreVans-js {
+        cursor: pointer;
+        color: #20C4F3;
+        text-decoration: underline;
+    }
+    .delivery-van {
+        -webkit-filter: saturate(0) brightness(2);
+        filter: saturate(0) brightness(2);
+        transition: ease-in-out all .2s;
+        cursor: pointer;
+    }
+
+    .delivery-van:hover,
+    .delivery-van.active {
+        -webkit-filter: saturate(1) brightness(1) contrast(1.2) drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.2));
+        filter: saturate(1) brightness(1) contrast(1.2);
+    }
+    .delivery-van.active:hover{
+        -webkit-filter: saturate(0) brightness(2);
+        filter: saturate(0) brightness(2);
+    }
+#roi-calculator {
+  width: 70%;
+  margin: auto;
+}
+    #roi-calculator a.btn-cta {
+        color: #FFF;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-size: 15px;
+        letter-spacing: 3px;
+        font-weight: normal;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: ease-in-out all .2s;
+    }
+    #roi-calculator a.btn-cta:hover {
+        background: #000
+    }
+
+    #roi-calculator .totalNumbers {
+        border: 1px dashed rgb(17, 94, 162);
+        border-radius: 4px;
+        padding: 20px;
+        background: #FFF;
+    }
+
+    #roi-calculator .totalNumbers h1,
+    #roi-calculator .totalNumbers h2 {
+        color: #000;
+        font-weight: bold;
+    }
+
+    #roi-calculator .summary {
+        font-size: 17px
+    }
+
+    #roi-calculator {
+        color: #FFF;
+    }
+
+    #roi-calculator hr {
+        border-top: 1px solid rgba(0, 0, 0, 0.2)
+    }
+
+    #roi-calculator input,
+    #roi-calculator .input-group-addon {
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+        border: none;
+    }
+
+    #roi-calculator .input-group-addon {
+        background: #115ea2;
+        color: #FFF;
+        font-size: 12px;
+    }
+
+    #roi-calculator h1,
+    #roi-calculator h2,
+    #roi-calculator label {
+        color: #FFF;
+    }
+
+    #roi-calculator .rates {
+        width: 150px;
+        margin: 20px auto;
+    }
+
+    #roi-calculator .hourlyRates {
+        width: 200px;
+        margin: 20px auto;
+    }
+
+    #roi-calculator input.rangeSlider {
+        width: 100%;
+        padding: 1px 13px;
+        background: #115ea2;
+        border-radius: 0;
+        -webkit-appearance: none;
+        font-size: 14px;
+        color: #9da6b9;
+        border: none;
+        border-radius: 4px;
+        box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    #roi-calculator button {
+        background: #46bb86;
+        border-radius: 2px;
+        color: #FFF;
+        text-align: center;
+        font-family: OpenSansbold, sans-serif;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 18px;
+        letter-spacing: 2px;
+        border: none;
+        padding: 15px 40px;
+        width: 100%;
+        margin-top: 30px;
+        transition: all ease-in .2s;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .roi-steps {
+        display: inline-block;
+        background: rgba(0,0,0,0.2);
+        width: 100px;
+        overflow: hidden;
+        height: 20px;
+        float: right;
+        padding: 2px;
+        position: relative
+    }
+    .step {
+        width: 20%;
+        float: left;
+    }
+    .step.active {
+        background: #46bb86;
+        height: 100%;
+        border-right: 2px solid transparent;
+    }
+    span.progressing{
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        font-size: 11px;
+        color: #FFF;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+a.btn-cta {
+    font-size: 13px;
+    background: #46bb86;
+    border-radius: 2px;
+    padding: 2px 10px;
+    transition: all ease-in .2s;
+    border: none;
+    box-shadow: none;
+}

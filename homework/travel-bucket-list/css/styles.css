@@ -1,91 +1,6 @@
 body {
-	margin: 20px;
-	margin-right: 10px;
-	margin-left: 10px;
-	font-family: sans-serif;
-}
-
-h1 {
-	background: rgb(9, 202, 159);
-	color: white;
-	font-family: sans-serif;
-	text-align: center;
-	padding: 20px;
-}
-
-
-.navigation-bar {
-	text-align: center;
-	font color: black;
-	border-spacing: 20px;
-	text-decoration-style: none;
-}
-
-.maui-box {
-	background: rgb(196, 222, 252);
-	color: black;
-	font-family: sans-serif;
-
-}
-
-h2 {
-	text-align: center;
-	font-size: 25;
-	padding-top: 10px;
-	font-family: sans-serif;
-}
-
-.maui-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    text-align: center;
-    padding: 5px;
-}
-
-.text {
-	font-family: sans-serif;
-	text-align: left;
-	margin: 10px, 20px;
-	padding: 20px;
-
-}
-
-.reykjavik-box {
-	background: rgb(194, 242, 227);
-	color: black;
-	font-family: sans-serif;
-
-}
-
-.reykjavik-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    text-align: center;
-    padding: 5px;
-}	
-
-.aspen-box {
-	background: rgb(196, 222, 252);
-	color: black;
-	font-family: sans-serif;
-}
-
-.aspen-image {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-    text-align: center;
-    padding: 5px;
-}
-
-.footer {
-	text-align: center;
-
+	font-family: helvetica, sans-serif;
+	margin: 0;
 }
 
 .container {
@@ -93,4 +8,56 @@ h2 {
 	margin: 0 auto;
 	background: rgb(243, 243, 243);
 	padding: 15px;
+}
+
+.header {
+	text-align: center;
+	background: rgb(9, 202, 159);
+	color: white;
+	padding: 20px 0;
+}
+
+.header h1 {
+	margin: 0;
+}
+
+.nav {
+	text-align: center;
+	padding: 20px 0;
+}
+
+.nav a {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	margin-right: 15px;
+}
+
+.travel-destination {
+	text-align: center;
+	padding: 30px;
+	background: grey;
+	margin-bottom: 40px;
+}
+
+.travel-destination h2 {
+	margin: 0 0 20px 0;
+}
+
+.travel-destination p {
+	margin: 20px 0 0 0;
+	text-align: justify;
+}
+
+.blue-bg {
+	background: rgb(196, 222, 252);
+}
+
+.green-bg {
+	background: rgb(194, 242, 227);
+}
+
+.footer {
+	text-align: center;
+	font-weight: bold;
 }

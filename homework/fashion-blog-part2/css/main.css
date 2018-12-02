@@ -1,72 +1,142 @@
 body {
-	color: #444;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
 	line-height: 1.5;
-	margin: 0px;
-	size: 18px;
-	font-family: Lato;
+	color: #444;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 54px;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: normal;
+	color: black;
+}
+
+h2 a {
+	color: black;
+}
+
+h2 a:hover {
+	color: #d00;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: normal;
+	color: #cccccc;
+}
+
+a {
+	color: #d00;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a00;
+}
+
+p {
+	margin-top: 27px;
+	margin-bottom: 0;
+}
+
+p.more {
+	font-weight: bold;
+	text-align: right;
+}
+
+img {
+	display: block;
+	margin: 10px 0;
+	width: 100%;
 }
 
 .container {
 	width: 1080px;
-    padding: 54px;
-    font-family: Lato;
-}  
-
-
-.header {
-	display: inline-block;
-	padding: 20px 20px;
+	margin: auto;
+	padding: 54px;
 }
 
-.title {
-	color: rgb(215 22 44);
-	font-weight: 300;
-	font-size: 54px;
-
+.header h1 {
+	display: inline;
+	margin-right: 9px;
 }
 
-.title:hover {
-	color: #a00;
-}
-
-.subtitle {
-	color: #888;
+.header h2 {
+	display: inline;
 	font-size: 27px;
-	font-weight: 300;
-	padding-bottom: 30px;
+	margin-bottom: 9px;
+	color: #888;
 }
 
-nav {
-	text-decoration: none;
+.header .nav {
+	overflow: auto;
 }
 
-
-a {
-	padding: 40px;
+.header .nav a {
+	float: left;
+	width: 180px;
+	display: block;
+	font-size: 24px;
+	color: white;
+	background: black;
+	padding: 15px 0;
 	text-align: center;
-	color: #fff;
-	background: #000;
-	size: 24px;
 }
 
-a:hover {
+.header .nav a:hover {
+	color: white;
 	background: #900;
 }
 
-.date {
-	color: #cccccc
-    font-size: 36px
-    font-weight: 300;
+.main {
+	float: left;
+	width: 720px;
 }
 
-.brooklyn {
-	color: #000
-    font-size: 36px
-    font-weight: 300
+.sidebar {
+	float: right;
+	width: 320px;
+	margin-top: 54px;
+	color: #888;
 }
 
-.brooklyn:hover {
-	color: #d00
+.footer {
+	clear: both;
+	color: #bbb;
 }
 
+.article {
+	border-bottom: 1px solid #DDD;
+	margin: 54px 0;
+	padding-bottom: 27px;
+}
 
+.article p:first-of-type:first-letter {
+	float: left;
+	font-size: 108px;
+	line-height: 1;
+	color: #ddd;
+	margin: -2px 2px 0 -2px;
+}
+
+.module {
+	border-bottom: 1px solid #ddd;
+	padding: 27px 0;
+}
+
+.module:last-of-type {
+	border: none;
+}
+
+.ad img {
+	margin: auto;
+}
